@@ -18,3 +18,14 @@
 #   4、classpath:/（classpath根目录）
 
 #####################################################
+
+
+启动前端：
+
+cnpm install webpack@^4.0.0 --save-dev
+
+cnpm install postcss-loader autoprefixer@8.0.0 postcss  -D
+
+cnpm install regenerator-runtime
+
+cnpm install --save-dev file-loader@3.0.1
