@@ -85,7 +85,7 @@ public class MchInfoService extends ServiceImpl<MchInfoMapper, MchInfo> {
         sysUser.setBelongInfoId(mchInfo.getMchNo());
         sysUser.setSex(CS.SEX_MALE);
         sysUser.setIsAdmin(CS.YES);
-        sysUser.setState(mchInfo.getState());
+        sysUser.setState(CS.YES);
         sysUserService.addSysUser(sysUser, CS.SYS_TYPE.MCH);
 
         // 插入商户默认应用
@@ -124,7 +124,7 @@ public class MchInfoService extends ServiceImpl<MchInfoMapper, MchInfo> {
             }
 
             // 1.查看当前商户是否存在交易数据
-            int payCount = payOrderService.count(PayOrder.gw().eq(PayOrder::getMchNo, mchNo));
+            long payCount = payOrderService.count(PayOrder.gw().eq(PayOrder::getMchNo, mchNo));
             if (payCount > 0) {
                 throw new BizException("该商户已存在交易数据，不可删除");
             }

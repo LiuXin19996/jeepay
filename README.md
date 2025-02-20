@@ -10,10 +10,10 @@
 
 <p align="center">
 	<a target="_blank" href="https://spring.io/projects/spring-boot">
-		<img src="https://img.shields.io/badge/spring%20boot-2.4.5-yellowgreen" />
+		<img src="https://img.shields.io/badge/spring%20boot-3.3.7-yellowgreen" />
 	</a>
-    <a target="_blank" href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html">
-		<img src="https://img.shields.io/badge/JDK-8-green.svg" />
+    <a target="_blank" href="https://www.oracle.com/java/technologies/downloads/#java17">
+		<img src="https://img.shields.io/badge/JDK-17-green.svg" />
 	</a>
 	<a target="_blank" href="http://www.gnu.org/licenses/lgpl.html">
 		<img src="https://img.shields.io/badge/license-LGPL--3.0-blue" />
@@ -23,6 +23,9 @@
     </a>
 	<a target="_blank" href='https://github.com/jeequan/jeepay'>
 		<img src="https://img.shields.io/github/stars/jeequan/jeepay.svg?style=social" alt="github star"/>
+	</a>
+	<a target="_blank" href='https://gitcode.com/jeequantech/jeepay'>
+		<img src="https://gitcode.com/jeequantech/jeepay/star/badge.svg" alt="gitcode star"/>
 	</a>
 </p>
 
@@ -93,12 +96,12 @@ Jeepay = Jee + pay，是由原XxPay支付系统作者带领团队开发，“Jee
 
 | 软件名称  | 描述 | 版本
 |---|---|---
-|Jdk | Java环境 | 1.8
-|Spring Boot | 开发框架 | 2.4.5
+|Jdk | Java环境 | 17
+|Spring Boot | 开发框架 | 3.3.7
 |Redis | 分布式缓存 | 3.2.8 或 高版本
 |MySQL | 数据库 | 5.7.X 或 8.0 高版本
 |MQ | 消息中间件 | ActiveMQ 或 RabbitMQ 或 RocketMQ
-|[Ant Design Vue](https://www.antdv.com/docs/vue/introduce-cn/) | Ant Design的Vue实现，前端开发使用 | 2.1.2
+|[Ant Design Vue](https://www.antdv.com/docs/vue/introduce-cn/) | Ant Design的Vue实现，前端开发使用 | 4.2.6
 |[MyBatis-Plus](https://mp.baomidou.com/) | MyBatis增强工具 | 3.4.2
 |[WxJava](https://gitee.com/binary/weixin-java-tools) | 微信开发Java SDK | 4.6.0
 |[Hutool](https://www.hutool.cn/) | Java工具类库 | 5.8.26
@@ -175,8 +178,10 @@ apt update && apt-get -y install docker.io && apt-get -y install git && wget -O 
 
 Jeepay已经开发了java和python的sdk，方便接入方开发对接。
 
-- Java SDK：[https://gitee.com/jeequan/jeepay-sdk-java](https://gitee.com/jeequan/jeepay-sdk-java "java sdk")
-- Python SDK：[https://gitee.com/jeequan/jeepay-sdk-python](https://gitee.com/jeequan/jeepay-sdk-python "python sdk")
+- Java SDK：[https://gitee.com/jeequan/jeepay-sdk-java](https://gitee.com/jeequan/jeepay-sdk-java "java sdk")    
+  或 https://gitcode.com/jeequantech/jeepay-sdk-java
+- Python SDK：[https://gitee.com/jeequan/jeepay-sdk-python](https://gitee.com/jeequan/jeepay-sdk-python "python sdk")    
+  或 https://gitcode.com/jeequantech/jeepay-sdk-python
 
 # 功能模块
 
