@@ -85,6 +85,15 @@ public class WxpayNormalMchParams extends NormalMchParams {
      **/
     private String apiClientKey;
 
+    /** 微信侧公钥ID **/
+    private String wxpayPublicKeyId;
+
+    /** 微信侧公钥证书文件 pub_key.pem**/
+    private String wxpayPublicKey;
+
+    /**  微信转账版本选择 **/
+    private String transferVersion;
+
     @Override
     public String deSenData() {
         WxpayNormalMchParams mchParams = this;
